@@ -1,0 +1,16 @@
+Versões em Portugol:
+TF1: 645 l
+TF2: 806 l
+
+Versões em Python:
+main1:  413  l
+main2:  276  l
+main3:  550  l
+main4:  589  l
+main5:  824  l
+main6:  990  l
+main7:  1417 l
+main8:  1375 l
+main9:  1565 l
+main10: 2007 l
+

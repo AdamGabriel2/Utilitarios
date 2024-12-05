@@ -1,0 +1,29 @@
+1. Utilitários Matemáticos Básicos
+1.1. Calculadora Básica
+1.1.1. Operações: Adição, Subtração, Multiplicação, Divisão, Potência e Raiz Quadrada
+1.2. Tabuada
+2. Utilitários Matemáticos Avançados
+2.1. Calculadora Avançada
+2.1.1. Operações: Fatorial, Combinação, Permutação, Derivada, Integral
+2.2. Funções Matemáticas
+2.2.1. Calculo de Função Logarítmica, Exponencial, Seno, Cosseno e Tangente
+2.3. Calculo de Estatística
+2.3.1. Calcular Média, Mediana, Moda e Desvio Padrão
+2.4. Resolver Equações
+2.3.1. Calculo de funções de primeiro e segundo grau (não foi colocada em "Funções Matemáticas" por ter uma estrutura de resolução totalmente diferente das demais)
+2.5. Operações com Matrizes
+2.5.1. Operações de Adição, Multiplicação e calculo de matriz Transposta (ainda vou adicionar calculo de Subtração e matriz Inversa (e muito trampo e muito detalhe pra ver ainda e o código ta só gambiarra nem sei como ta rodando KKKKKKKKK))
+2.6. Geometria
+2.6.1. Calculo de Área de Círculo, Retângulo, Perímetro do Triângulo e Volume do Cubo
+3. Verificadores de Números
+3.1. Verifica se um número é positivo, negativo ou igual a zero, primo, par ou impar, palíndromo, um número da sequencia de fibonacci, perfeito e faz calculo de máximo divisor comum e mínimo multiplo comum entre 2 números
+4. Utilitários de Texto
+4.1. Faz uma analise do texto com uma contagem de palavras e caracteres no texto, e frequência de palavras e caracteres
+5. Conversores de Unidades
+5.1. Conversão de Unidades
+5.1.1. Faz conversão das seguintes unidades: Comprimento, Área, Volume, Tempo, Velocidade, Temperatura, Pressão, Massa, Energia, Dados, Força, Ângulo, Densidade, Frequência, Iluminância, Luminância, Potência, Eletricidade, Radioatividade, Velocidade Angular e Fluxo de Massa (é aqui que o filho chora e a mãe não vê)
+5.2. Conversão de Moeda
+5.2.1. Conversão entre moedas Real Brasileiro, Dólar Americano e Euro (que merda, eu tenho que melhorar isso urgente)
+6. Jogos
+6.1. Quiz Matemático
+6.2. Sudoku

@@ -1,0 +1,218 @@
+Aqui está uma lista abrangente de assuntos de matemática, organizados por área e divididos em níveis básicos, intermediários e avançados:
+
+---
+
+### **1. Aritmética**
+#### **Básico**
+- Operações fundamentais (adição, subtração, multiplicação, divisão)
+- Propriedades dos números (associativa, comutativa, distributiva)
+- Fatores e múltiplos
+- Números primos e compostos
+- Potenciação e radiciação simples
+- Frações, decimais e porcentagens
+
+#### **Intermediário**
+- Razões e proporções
+- Média, mediana e moda
+- Regra de três
+- Progressões aritméticas e geométricas simples
+- Teorema fundamental da aritmética
+
+#### **Avançado**
+- Sequências numéricas complexas
+- Cálculo modular
+- Teoremas de divisibilidade
+- Números irracionais e transcendentes
+- Propriedades dos números inteiros (congruências e residuais)
+
+---
+
+### **2. Álgebra**
+#### **Básico**
+- Expressões algébricas e simplificação
+- Equações lineares
+- Sistemas de equações lineares (duas variáveis)
+- Produtos notáveis (quadrado da soma, diferença de quadrados)
+- Fatoração algébrica
+
+#### **Intermediário**
+- Funções (definição, domínio e imagem)
+- Equações quadráticas
+- Inequações lineares e quadráticas
+- Sistemas de inequações
+- Funções polinomiais (análise gráfica)
+- Matrizes e determinantes básicos
+
+#### **Avançado**
+- Álgebra abstrata (grupos, anéis e corpos)
+- Matrizes avançadas (autovalores e autovetores)
+- Transformações lineares
+- Equações diofantinas
+- Teoria dos polinômios (raízes e fatoração complexa)
+
+---
+
+### **3. Geometria**
+#### **Básico**
+- Figuras planas (triângulos, quadriláteros, círculos)
+- Perímetro, área e volume
+- Propriedades dos ângulos
+- Teorema de Pitágoras
+- Simetria e transformações básicas
+
+#### **Intermediário**
+- Geometria analítica (reta, circunferência e parábola)
+- Trigonometria básica (seno, cosseno, tangente)
+- Relações métricas no triângulo retângulo
+- Teorema dos cossenos e dos senos
+- Polígonos regulares e irregulares
+
+#### **Avançado**
+- Geometria diferencial (curvatura e superfícies)
+- Topologia básica (conjuntos abertos e fechados)
+- Geometria projetiva
+- Geometrias não-euclidianas
+- Aplicações de vetores em geometria
+
+---
+
+### **4. Trigonometria**
+#### **Básico**
+- Razões trigonométricas (seno, cosseno, tangente)
+- Triângulos retângulos
+- Relações fundamentais (identidade pitagórica)
+- Cálculo de ângulos notáveis
+
+#### **Intermediário**
+- Funções trigonométricas (gráficos e periodicidade)
+- Equações trigonométricas
+- Lei dos senos e cossenos
+- Fórmulas de adição, subtração e dupla
+- Identidades trigonométricas
+
+#### **Avançado**
+- Transformações trigonométricas avançadas
+- Séries trigonométricas (Fourier)
+- Aplicações em geometria e física
+- Modelagem de fenômenos periódicos
+
+---
+
+### **5. Probabilidade e Estatística**
+#### **Básico**
+- Conceitos de probabilidade
+- Eventos mutuamente exclusivos
+- Experimentos simples (cara ou coroa, dados)
+- Média, mediana e moda
+
+#### **Intermediário**
+- Distribuições de probabilidade (binomial, normal)
+- Variância e desvio padrão
+- Análise combinatória (arranjos, combinações, permutações)
+- Tabelas de frequência e histogramas
+
+#### **Avançado**
+- Estatística inferencial (intervalo de confiança, testes de hipótese)
+- Regressão e correlação
+- Distribuições avançadas (Poisson, t-Student, chi-quadrado)
+- Análise multivariada
+- Probabilidade condicional e teorema de Bayes
+
+---
+
+### **6. Cálculo**
+#### **Básico**
+- Limites e continuidade
+- Derivadas simples (definição e regras básicas)
+- Integrais definidas e indefinidas simples
+
+#### **Intermediário**
+- Regras de derivação (produto, quociente, cadeia)
+- Aplicações de derivadas (taxa de variação, máximos e mínimos)
+- Integrais por substituição e partes
+- Sequências e séries (convergência)
+
+#### **Avançado**
+- Cálculo multivariável (derivadas e integrais de várias variáveis)
+- Equações diferenciais (primeira e segunda ordem)
+- Séries de Taylor e Fourier
+- Aplicações em física e engenharia (fluxo, gradiente, divergência)
+- Teoremas avançados (Green, Stokes, Gauss)
+
+---
+
+### **7. Álgebra Linear**
+#### **Básico**
+- Vetores e operações básicas
+- Matrizes (adição, subtração e multiplicação)
+- Determinantes
+
+#### **Intermediário**
+- Espaços vetoriais (bases, dimensões)
+- Transformações lineares
+- Sistemas lineares (método de Gauss)
+- Matrizes inversas e transpostas
+
+#### **Avançado**
+- Autovalores e autovetores
+- Diagonalização de matrizes
+- Teoria espectral
+- Decomposição de matrizes (LU, QR, SVD)
+
+---
+
+### **8. Teoria dos Números**
+#### **Básico**
+- Divisores, múltiplos e fatores
+- Números primos e compostos
+- Módulo e congruências
+
+#### **Intermediário**
+- Teorema de Fermat e de Wilson
+- Funções aritméticas (phi de Euler, soma dos divisores)
+- Sequências numéricas especiais
+
+#### **Avançado**
+- Criptografia e teoria dos números
+- Equações diofantinas avançadas
+- Último Teorema de Fermat (contexto e prova moderna)
+- Distribuição dos números primos
+
+---
+
+### **9. Matemática Discreta**
+#### **Básico**
+- Lógica matemática (proposições e conectivos)
+- Teoria de conjuntos
+- Relações e funções
+
+#### **Intermediário**
+- Grafos e suas propriedades
+- Contagem (princípio da inclusão e exclusão)
+- Álgebra booleana
+
+#### **Avançado**
+- Autômatos e linguagens formais
+- Grafos avançados (colorabilidade, árvores geradoras mínimas)
+- Criptografia moderna (RSA, curvas elípticas)
+
+---
+
+### **10. Matemática Avançada**
+#### **Básico**
+- Sequências e séries infinitas
+- Introdução às equações diferenciais
+
+#### **Intermediário**
+- Análise real e complexa
+- Transformadas (Laplace, Fourier, Z)
+
+#### **Avançado**
+- Geometria diferencial
+- Topologia
+- Sistemas dinâmicos e caos
+- Matemática aplicada (modelagem e simulação)
+
+---
+
+Essa lista cobre uma ampla gama de tópicos, fornecendo um guia completo para estudar matemática de forma progressiva e aprofundada.

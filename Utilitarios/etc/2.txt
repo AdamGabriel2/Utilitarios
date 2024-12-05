@@ -1,0 +1,66 @@
+## Funcionalidades e Especificidades das Versões do Programa Agrupador de Utilitários
+
+Aqui está uma lista das funcionalidades de cada versão do programa, com base nos arquivos fornecidos:
+
+**TF1.por.txt  (Portugol)**
+
+* **Número de funcionalidades:** 5
+* **Especificidades:**
+    * Calculadora com as quatro operações básicas (+, -, *, /).
+    * Tabuada de um número informado pelo usuário.
+    * Verificação de números: maior, menor ou igual a zero; primo; par ou ímpar; quadrado perfeito; triangular; Fibonacci.
+    * Cálculo do tamanho de um texto (em caracteres).
+    * Conversores de unidades de medida: 
+        * Comprimento: metros para centímetros, milímetros, pés, polegadas e jardas. 
+
+**TF2.por.txt (Portugol)**
+
+* **Número de funcionalidades:** 6
+* **Especificidades:**
+    * As mesmas funcionalidades da versão TF1.por.txt.
+    * Adicionado um conversor de unidades de área: metros quadrados para hectares, acres, milhas quadradas, pés quadrados e polegadas quadradas.
+
+**main1.py.txt (Python)**
+
+* **Número de funcionalidades:** 2
+* **Especificidades:**
+    * Calculadora com as quatro operações básicas (+, -, *, /), potenciação e raiz quadrada.
+    * Tabuada de um número informado pelo usuário.
+
+**main10.py.txt (Python)**
+
+* **Número de funcionalidades:** 19
+* **Especificidades:** 
+    * Calculadora completa com as quatro operações básicas, potenciação, raiz quadrada, fatorial, combinação, permutação, derivada e integral. 
+    * Histórico de operações da calculadora.
+    * Tabuada de um número, com intervalo definido pelo usuário.
+    * Histórico de operações da tabuada.
+    * Funções matemáticas: logaritmo, exponencial, seno, cosseno e tangente.
+    * Histórico de operações das funções matemáticas.
+    * Estatísticas: média, mediana, moda e desvio padrão de uma lista de números.
+    * Histórico de operações de estatísticas.
+    * Resolver equações de primeiro e segundo grau.
+    * Histórico de soluções de equações.
+    * Operações com vetores: adição, subtração, produto escalar e produto vetorial.
+    * Histórico de operações com vetores.
+    * Implementação da classe `Vetor` para representar vetores matemáticos.
+    * Operações com matrizes: adição, subtração, multiplicação e transposição.
+    * Histórico de operações com matrizes.
+    * Implementação da classe `Matriz` para representar matrizes.
+    * Cálculo de área e perímetro de figuras geométricas: círculo, triângulo e cubo.
+    * Histórico de operações de geometria.
+    * Teoremas: Pitágoras e Tales.
+    * Histórico de operações com teoremas.
+    * Operações com números complexos: soma, subtração, multiplicação, divisão e módulo.
+    * Histórico de operações com números complexos.
+    * Implementação da classe `NumeroComplexoIndividual` para representar números complexos.
+    * Operações com frações: soma, subtração, multiplicação e divisão.
+    * Histórico de operações com frações.
+    * Implementação da classe `FracaoIndividual` para representar frações.
+    * Verificador de números: positivo/negativo/zero, primo, par/ímpar, palíndromo, Fibonacci, perfeito, amigável, MDC, MMC, listar Fibonacci, listar perfeitos, listar primos, mágico, triangular, Catalan, quadrado perfeito, cubo perfeito, abundante/deficiente, Harshad.
+    * Histórico de verificações de números.
+    * Conversores de unidades de medida: comprimento, área, volume, tempo, velocidade, temperatura, pressão, massa, energia, dados.
+    * Histórico de conversões de unidades.
+    * Análise de texto: contagem de palavras e caracteres e suas frequências.
+    * Finanças: calculadora financeira e simulador financeiro.
+

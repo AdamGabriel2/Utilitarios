@@ -1,0 +1,67 @@
+## Funcionalidades Detalhadas do Programa
+
+As funcionalidades presentes nas diferentes versões do programa, com base nos arquivos fornecidos, abrangem uma ampla gama de utilitários matemáticos, de texto e de jogos. As funcionalidades podem ser agrupadas em categorias principais, com cada categoria contendo diversas operações e cálculos específicos. 
+
+Calculadora:
+Operações básicas: Adição, subtração, multiplicação e divisão.
+Potenciação e radiciação: Cálculo de potência e raiz quadrada.
+Operações adicionais: Cálculo de múltiplos, média e soma de sequências numéricas.
+Fatorial: Cálculo do fatorial de um número inteiro.
+
+Tabuada:
+Geração da tabuada: Calcula a tabuada de multiplicação de um número, com opção de definir o intervalo.
+
+Verificação de Números:
+Propriedades básicas: Verificação de números positivos, negativos ou zero; primalidade; paridade.
+Propriedades avançadas: Verificação se um número é quadrado perfeito, triangular, número de Fibonacci, perfeito ou amigável.
+Cálculo de MDC e MMC: Cálculo do Máximo Divisor Comum (MDC) e do Mínimo Múltiplo Comum (MMC) entre dois ou mais números.
+
+Conversores:
+Conversão de unidades de medida: Conversão entre diferentes unidades de comprimento, área, volume, tempo, velocidade, temperatura, pressão, massa, energia, dados, força, ângulo, densidade, frequência, iluminância, luminância, potência, eletricidade, radioatividade e velocidade angular.
+Conversão de moeda: Conversão entre diferentes moedas.
+
+Funções Matemáticas:
+Funções trigonométricas: Cálculo de seno, cosseno e tangente.
+Logaritmo e exponencial: Cálculo de logaritmo e exponencial.
+
+Estatísticas:
+Medidas de tendência central: Cálculo de média, mediana e moda.
+Medidas de dispersão: Cálculo de desvio padrão.
+
+Resolução de Equações:
+Equações de primeiro e segundo grau: Resolução de equações de primeiro e segundo grau.
+
+Operações com Vetores:
+Operações básicas: Adição, subtração, produto escalar e produto vetorial de vetores.
+
+Operações com Matrizes:
+Operações básicas: Adição, multiplicação e transposição de matrizes.
+
+Geometria:
+Cálculo de área: Cálculo da área de círculo e retângulo.
+Cálculo de perímetro: Cálculo do perímetro de triângulo.
+Cálculo de volume: Cálculo do volume de cubo.
+
+Teoremas:
+Teorema de Pitágoras: Cálculo da hipotenusa de um triângulo retângulo.
+Teorema de Tales: Cálculo da proporção entre segmentos de retas.
+
+Números Complexos:
+Operações básicas: Soma, subtração, multiplicação e divisão de números complexos.
+Módulo: Cálculo do módulo de um número complexo.
+
+Frações:
+Operações básicas: Soma, subtração, multiplicação e divisão de frações.
+Simplificação: Simplificação de frações.
+
+Análise de Texto:
+
+Contagem e frequência: Contagem de palavras e caracteres, e cálculo de suas frequências.
+
+Jogos:
+
+Quiz matemático: Jogo de perguntas e respostas sobre matemática.
+Sudoku: Jogo de lógica numérica.
+
+É importante observar que nem todas as funcionalidades estão implementadas em todas as versões do programa. As versões em Python geralmente apresentam um conjunto mais completo de funcionalidades em comparação com as versões em Portugol. Além disso, algumas funcionalidades, como finanças e algumas conversões de unidades, estão listadas nos menus, mas não possuem implementação nos arquivos fornecidos.
+

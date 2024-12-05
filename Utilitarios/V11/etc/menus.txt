@@ -1,0 +1,213 @@
+|================================================|
+|                 Menu Principal                 |
+|1. Utilitários Matemáticos                      |
+|2. Verificadores de Números                     |
+|3. Utilitários de Texto                         |
+|4. Conversores de Unidades                      |
+|5. Finanças                                     |
+|6. Jogos                                        |
+|7. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|            Utilitários Matemáticos             |
+|1. Calculadora Completa                         |
+|2. Tabuada                                      |
+|3. Funções Matemáticas                          |
+|4. Calculo de Estatística                       |
+|5. Resolver Equações                            |
+|6. Operações com Vetores                        |
+|7. Operações com Matrizes                       |
+|8. Geometria                                    |
+|9. Teorema                                      |
+|10. Número Complexo                             |
+|11. Ver Histórico                               |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|              Calculadora Completa              |
+|1. Adição                                       |
+|2. Subtração                                    |
+|3. Multiplicação                                |
+|4. Divisão                                      |
+|5. Potência                                     |
+|6. Raiz Quadrada                                |
+|7. Fatorial                                     |
+|8. Combinação                                   |
+|9. Permutação                                   |
+|10. Derivada                                    |
+|11. Integral                                    |
+|12. Ver Histórico                               |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                    Tabuada                     |
+|1. Tabuada                                      |
+|2. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|              Funções Matemáticas               |
+|1. Logaritmo                                    |
+|2. Exponencial                                  |
+|3. Seno                                         |
+|4. Cosseno                                      |
+|5. Tangente                                     |
+|6. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                  Estatísticas                  |
+|1. Calcular Média                               |
+|2. Calcular Mediana                             |
+|3. Calcular Moda                                |
+|4. Calcular Desvio Padrão                       |
+|5. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                    Equações                    |
+|1. Primero Grau                                 |
+|2. Segundo Grau                                 |
+|3. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|             Operações com Vetores              |
+|1. Adição                                       |
+|2. Subtração                                    |
+|3. Produto Escalar                              |
+|4. Produto Vetorial                             |
+|5. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|             Operações com Matrizes             |
+|1. Adição                                       |
+|2. Multiplicação                                |
+|3. Transposição                                 |
+|4. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                   Geometria                    |
+|1. Calcular Área do Círculo                     |
+|2. Calcular Área do Retângulo                   |
+|3. Calcular Perímetro do Triângulo              |
+|4. Calcular Volume do Cubo                      |
+|5. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                Número Complexo                 |
+|1. Soma                                         |
+|2. Subtração                                    |
+|3. Multiplicação                                |
+|4. Divisão                                      |
+|5. Módulo do primeiro número                    |
+|6. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                     Fração                     |
+|1. Soma                                         |
+|2. Subtração                                    |
+|3. Multiplicação                                |
+|4. Divisão                                      |
+|5. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                Verificar Número                |
+|1. Positivo, Negativo, Zero                     |
+|2. Primo                                        |
+|3. Par, Ímpar                                   |
+|4. Palíndromo                                   |
+|5. Fibonacci                                    |
+|6. Perfeito                                     |
+|7. Amigável                                     |
+|8. Cálculo de MDC e MMC                         |
+|9. Listar Fibonacci até N                       |
+|10. Listar Números Perfeitos até N              |
+|11. Contar Dígitos de um Número                 |
+|12. Listar Números Primos até N                 |
+|13. Mágico                                      |
+|14. Triangular                                  |
+|15. Catalan                                     |
+|16. Quadrado Perfeito                           |
+|17. Cubo Perfeito                               |
+|18. Número Abundante/Deficiente                 |
+|19. Número de Harshad                           |
+|20. Mostrar Histórico                           |
+|21. Ver Histórico                               |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                  Conversores                   |
+|1. Conversão de Unidades                        |
+|2. Conversão de Moeda                           |
+|3. Adicionar Unidade Personalizada              |
+|4. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                  Conversores                   |
+|1. Comprimento                                  |
+|2. Área                                         |
+|3. Volume                                       |
+|4. Tempo                                        |
+|5. Velocidade                                   |
+|6. Temperatura                                  |
+|7. Pressão                                      |
+|8. Massa                                        |
+|9. Energia                                      |
+|10. Dados                                       |
+|11. Força                                       |
+|12. Ângulo                                      |
+|13. Densidade                                   |
+|14. Frequência                                  |
+|15. Iluminância                                 |
+|16. Luminância                                  |
+|17. Potência                                    |
+|18. Eletricidade                                |
+|19. Radioatividade                              |
+|20. Velocidade Angular                          |
+|21. Fluxo de Massa                              |
+|22. Ver Histórico                               |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|              Utilitários de Texto              |
+|1. Analise de Texto                             |
+|2. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                    Financas                    |
+|1. Calculadora Financeira                       |
+|2. Simulador Financeiro                         |
+|3. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|             Calculadora Financeira             |
+|1. Calcular ROI                                 |
+|2. Calcular Margem de Lucro                     |
+|3. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|              Simulador Financeiro              |
+|1. Calcular Juros Compostos                     |
+|2. Calcular Investimento Futuro                 |
+|3. Calcular Valor Presente                      |
+|4. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|
+|================================================|
+|                     Jogos                      |
+|1. Quiz                                         |
+|2. Sudoku                                       |
+|3. Ver Histórico                                |
+|0. Voltar                                       |
+|================================================|

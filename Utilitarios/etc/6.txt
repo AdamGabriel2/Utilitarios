@@ -1,0 +1,128 @@
+## Funcionalidades do main10.py.txt: Um Mergulho nas Profundezas do Código
+
+O arquivo **main10.py.txt** apresenta um programa com funcionalidades abrangentes, organizadas em diversas classes e menus. As principais funcionalidades são:
+
+**1. Menu Principal:**
+
+* O programa utiliza a classe `Menu` para exibir um menu principal interativo com as seguintes opções:
+    * Utilitários Matemáticos
+    * Verificadores de Números
+    * Utilitários de Texto
+    * Conversores de Unidades
+    * Finanças
+    * Jogos
+
+**2. Utilitários Matemáticos:**
+
+* **Calculadora Completa:**
+    * Adição, Subtração, Multiplicação, Divisão
+    * Potência, Raiz Quadrada
+    * Fatorial, Combinação, Permutação
+    * Derivada, Integral
+    * Armazenamento de histórico de operações
+* **Tabuada:**
+    * Geração da tabuada de multiplicação para um número específico com intervalo definido pelo usuário.
+    * Armazenamento de histórico de operações
+* **Funções Matemáticas:**
+    * Logaritmo (com base personalizável)
+    * Exponencial
+    * Seno, Cosseno, Tangente
+    * Armazenamento de histórico de operações
+* **Estatísticas:**
+    * Cálculo de Média, Mediana, Moda, Desvio Padrão
+    * Armazenamento de histórico de operações
+* **Resolver Equações:**
+    * Resolução de equações de primeiro e segundo grau
+    * Armazenamento de histórico de soluções
+* **Operações com Vetores:**
+    * Adição, Subtração
+    * Produto Escalar, Produto Vetorial
+    * Criação de vetores com componentes fornecidas pelo usuário
+    * Exibição do vetor resultante
+    * Armazenamento de histórico de operações
+* **Operações com Matrizes:**
+    * Adição, Multiplicação, Transposição
+    * Criação de matrizes com dimensões e valores fornecidos pelo usuário
+    * Exibição da matriz resultante
+    * Armazenamento de histórico de operações
+* **Geometria:**
+    * Cálculo de área, perímetro e volume para diferentes formas geométricas.
+    * O código fonte não apresenta implementação detalhada para esta funcionalidade.
+* **Teoremas:**
+    * Teorema de Pitágoras
+    * Teorema de Tales
+    * Armazenamento de histórico de cálculos
+* **Número Complexo:**
+    * Soma, Subtração, Multiplicação, Divisão
+    * Módulo
+    * Exibição do número complexo resultante
+    * Armazenamento de histórico de operações
+* **Fracao:**
+    * Operacoes com frações.
+    * O código fonte não apresenta implementação detalhada para esta funcionalidade.
+
+**3. Verificadores de Números:**
+
+* Verifica se um número é:
+    * Positivo, Negativo ou Zero
+    * Primo
+    * Par ou Ímpar
+    * Palíndromo
+    * Fibonacci
+    * Perfeito
+    * Amigável
+* Cálculo de MDC e MMC:
+    * Permite calcular o MDC e MMC de uma lista de números fornecida pelo usuário
+    * Armazena o resultado no histórico
+* Outras funcionalidades:
+    * Contar Dígitos de um Número
+    * Listar Fibonacci até N
+    * Listar Números Perfeitos até N
+    * Listar Números Primos até N
+    * Mágico
+    * Triangular
+    * Catalan
+    * Quadrado Perfeito
+    * Cubo Perfeito
+    * Número Abundante/Deficiente
+    * Número de Harshad
+* Armazenamento de histórico de verificações
+
+**4. Utilitários de Texto:**
+
+* **Analise de Texto:**
+    * Conta o número de palavras e caracteres no texto.
+    * Calcula a frequência de cada palavra e caractere.
+
+**5. Conversores de Unidades:**
+
+* Converte unidades de:
+    * Comprimento, Área, Volume, Tempo
+    * Velocidade, Temperatura, Pressão, Massa
+    * Energia, Dados, Força, Ângulo, Densidade
+    * Frequência, Iluminância, Luminância, Potência
+    * Eletricidade, Radioatividade, Velocidade Angular, Fluxo de Massa
+* Permite adicionar unidades personalizadas pelo usuário.
+* Armazena histórico de conversões.
+
+**6. Finanças:**
+
+* **Calculadora Financeira:**
+    * O código fonte não apresenta implementação detalhada para esta funcionalidade.
+* **Simulador Financeiro:**
+    * O código fonte não apresenta implementação detalhada para esta funcionalidade.
+
+**7. Jogos:**
+
+* **Quiz:**
+    * O código fonte não apresenta implementação detalhada para esta funcionalidade.
+* **Sudoku:**
+    * O código fonte não apresenta implementação detalhada para esta funcionalidade.
+
+**Observações:**
+
+* Algumas funcionalidades, como "Geometria" e "Fracao" em Utilitários Matemáticos, "Calculadora Financeira" e "Simulador Financeiro" em Finanças, e "Quiz" e "Sudoku" em Jogos, estão presentes no menu, mas não possuem implementação detalhada no código fonte.
+* O programa **main10.py.txt** demonstra um alto nível de organização e modularidade, utilizando classes e métodos para estruturar as funcionalidades e facilitar a manutenção e expansão do código. 
+
+Em suma, o **main10.py.txt** oferece um conjunto abrangente de utilitários matemáticos, de texto e de jogos, com foco na organização e modularidade do código.
+

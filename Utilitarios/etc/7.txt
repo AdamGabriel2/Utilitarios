@@ -1,0 +1,20 @@
+O programa presente no arquivo main10.py.txt oferece uma ampla gama de funcionalidades matemáticas, de texto e de jogos, organizadas de forma modular em diferentes classes.
+
+A classe `Base` tem as funcionalidades de converter números de base decimal para binária, octal e hexadecimal e o contrario também, mesmo se o número tenha parte decimal/quebrada.
+
+O menu principal, gerenciado pela classe `Menu`, permite navegar pelas diversas seções do programa, incluindo Utilitários Matemáticos, Verificadores de Números, Utilitários de Texto, Conversores de Unidades, Finanças e Jogos.
+
+A seção de `Utilitários Matemáticos` é a mais rica em funcionalidades. A Calculadora Completa oferece as operações básicas, como adição, subtração, multiplicação, divisão, potência e raiz quadrada (com números naturais e números complexos), além de fatorial, combinação, permutação, derivada e integral. Tendo também uma Tabuada. As funções avançadas de logaritmo, exponencial, seno, cosseno e tangente também estão disponíveis. A seção de Estatísticas fornece ferramentas para calcular a média, mediana, moda e desvio padrão de conjuntos de dados fornecidos pelo usuário. Já na parte de Equações podem ser resolvidas equações do primeiro e segundo grau. E isso suporta operações de adição, subtração, produto escalar e produto vetorial com vetores. Como também tem suporte a operações de adição, multiplicação e transposição de matrizes podendo criar uma matriz colocando seu tamanho o valor inicial e sua razão podendo ter sua progresão do tipo PA ou do tipo PG. Tudo isso além de poder fazer calculo de área, perímetro e volume de figuras geometricas como círculo, retângulo, triângulo ou cubo. Também tendo suporte a calculo de teoremas como de Pitágoras e de Tales. Assim como tem a calculos com números complexos como soma, subtração, multiplicação e divisão. E operações de soma, subtração, multiplicação e divisão de Frações.
+
+A classe `VerifNums` implementa verificações para determinar se um número é positivo, negativo, zero, primo, par, ímpar, palíndromo, Fibonacci, perfeito, mágico, triangular, número de Catalan, quadrado perfeito, cubo perfeito, se ele é perfeito, abundante ou deficiente ou um número de Harshad, alem de poder listar de 1 a N os números da sequencia de fibonacci, ou números perfeitos ou números primos, além de verificar se dois números são amigaveis ou não. Além disso, permite calcular o MDC e o MMC de uma lista de números.
+
+A seção de `Utilitários de Texto` se concentra na análise de textos, fornecendo contagem de palavras e caracteres e calculando a frequência de cada um.
+
+A classe `ConvUni` oferece conversores para uma variedade de unidades, incluindo comprimento, área, volume, tempo, velocidade, temperatura, pressão, massa, energia, dados, força, ângulo, densidade, frequência, iluminância, luminância, potência, eletricidade, radioatividade, velocidade angular e fluxo de massa. O programa permite adicionar unidades personalizadas pelo usuário, ampliando sua flexibilidade.
+
+A classe `Finanças` oferece funcionalidades para a area de finanças como Calculadora Financeira com as funções de calculo de ROI e margem de lucro e um Simulador Financeiro capaz de calcular juros compostos, investumento futuro e valor presente.
+
+A classe `Jogos` oferece jogos como Quiz Matemático, Sudoku e um resolvedor de Sudoku e um Jogo da Velha. 
+
+Vale ressaltar que o programa main10.py.txt demonstra uma estrutura bem organizada e modularizada, utilizando classes e métodos para encapsular as funcionalidades. Essa estrutura facilita a manutenção e expansão do código, tornando-o mais compreensível e adaptável a futuras adições. 
+

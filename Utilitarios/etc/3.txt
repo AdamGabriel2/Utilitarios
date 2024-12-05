@@ -1,0 +1,232 @@
+## Análise Detalhada das Funcionalidades de Cada Versão do Programa
+
+Com base nos arquivos fornecidos, aqui está uma análise completa das funcionalidades de cada versão do programa agrupador de utilitários, incluindo o número de funcionalidades, suas especificidades e detalhes relevantes:
+
+**TF1.por.txt (Portugol)**
+
+* **Número de funcionalidades:** 16
+* **Funcionalidades:**
+    * **Calculadora:**
+        * Adição (+)
+        * Subtração (-)
+        * Multiplicação (*)
+        * Divisão (/)
+        * Potência (P)
+        * Raiz (R)
+        * Cálculo de múltiplo (L)
+        * Média (M)
+        * Soma de 1 a x (S)
+        * Fatorial (F)
+        * Área de Figuras Geométricas (A)
+    * **Tabuada:**
+        * Calcula a tabuada de um número informado pelo usuário.
+    * **Verificar Número:**
+        * Maior, menor ou igual a zero.
+        * Primo.
+        * Par ou ímpar.
+        * Quadrado perfeito.
+        * Número triangular.
+        * Número de Fibonacci. 
+    * **Tamanho do texto:** 
+        * Não implementado, apesar de constar no menu.
+    * **Conversores:**
+        * Conversão de comprimento:
+            * Quilômetros (km) para metros, centímetros, milímetros, pés, polegadas, jardas e milhas. 
+            * Metros (m) para quilômetros, centímetros, milímetros, pés, polegadas, jardas e milhas.
+            * Centímetros (cm) para quilômetros, metros, milímetros, pés, polegadas, jardas e milhas.
+            * Milímetros (mm) para quilômetros, metros, centímetros, pés, polegadas, jardas e milhas.
+            * Pés (ft) para quilômetros, metros, centímetros, milímetros, polegadas, jardas e milhas.
+            * Polegadas (in) para quilômetros, metros, centímetros, milímetros, pés, jardas e milhas.
+            * Jardas (yd) para quilômetros, metros, centímetros, milímetros, pés, polegadas e milhas.
+            * Milhas (mile) para quilômetros, metros, centímetros, milímetros, pés, polegadas e jardas.
+* **Especificidades:**
+    * Programa em Portugol.
+    * Utiliza variáveis globais para controle do fluxo do programa.
+    * Funções com nomes pouco descritivos.
+    * Código com estrutura complexa e difícil de entender.
+
+**TF2.por.txt (Portugol)**
+
+* **Número de funcionalidades:** 17
+* **Funcionalidades:**
+    * As mesmas 16 funcionalidades da versão TF1.por.txt.
+    * Adicionado um conversor de unidades de área:
+        * Quilômetros quadrados (km²) para metros quadrados, hectares, acres, milhas quadradas, pés quadrados e polegadas quadradas.
+        * Metros quadrados (m²) para quilômetros quadrados, hectares, acres, milhas quadradas, pés quadrados e polegadas quadradas.
+        * Hectares (ha) para quilômetros quadrados, metros quadrados, acres, milhas quadradas, pés quadrados e polegadas quadradas.
+        * Acres (acre) para quilômetros quadrados, metros quadrados, hectares, milhas quadradas, pés quadrados e polegadas quadradas.
+        * Milhas quadradas (mile²) para quilômetros quadrados, metros quadrados, hectares, acres, pés quadrados e polegadas quadradas.
+        * Pés quadrados (ft²) para quilômetros quadrados, metros quadrados, hectares, acres, milhas quadradas e polegadas quadradas.
+        * Polegadas quadradas (in²) para quilômetros quadrados, metros quadrados, hectares, acres, milhas quadradas e pés quadrados.
+* **Especificidades:**
+    * As mesmas especificidades da versão TF1.por.txt.
+
+**main1.py.txt (Python)**
+
+* **Número de funcionalidades:** 9 
+* **Funcionalidades:**
+    * **Calculadora:**
+        * Adição (+) 
+        * Subtração (-)
+        * Multiplicação (*)
+        * Divisão (/) 
+        * Potência 
+        * Raiz Quadrada 
+        * Cálculo de múltiplos 
+        * Média 
+        * Soma de 1 a x 
+    * **Tabuada:**
+        * Calcula a tabuada de um número informado pelo usuário.
+    * **Verificar Número:**
+        * Não implementado, apesar de constar no menu. 
+    * **Tamanho do texto:**
+        * Não implementado, apesar de constar no menu.
+    * **Conversores:** 
+        * Conversão de comprimento:
+            * Quilômetros (km) para metros, centímetros, milímetros, pés, polegadas, jardas e milhas.
+            * Metros (m), Centímetros (cm), Milímetros (mm), Pés (ft), Polegadas (in), Jardas (yd) e Milhas (mile) - Não implementados, apesar de constarem no menu.
+* **Especificidades:**
+    * Programa em Python.
+    * Utiliza a estrutura `match case` para controle de fluxo.
+    * Código mais organizado e legível que as versões em Portugol.
+
+**main10.py.txt (Python)**
+
+* **Número de funcionalidades:** 37
+* **Funcionalidades:**
+    * **Calculadora Completa:**
+        * Adição (+)
+        * Subtração (-)
+        * Multiplicação (*)
+        * Divisão (/)
+        * Potência
+        * Raiz quadrada
+        * Fatorial
+        * Combinação
+        * Permutação
+        * Derivada
+        * Integral
+    * **Histórico de operações da calculadora.**
+    * **Tabuada:**
+        * Calcula a tabuada de um número, com intervalo definido pelo usuário. 
+    * **Histórico de operações da tabuada.**
+    * **Funções Matemáticas:**
+        * Logaritmo
+        * Exponencial
+        * Seno
+        * Cosseno
+        * Tangente
+    * **Histórico de operações das funções matemáticas.**
+    * **Estatísticas:**
+        * Média
+        * Mediana
+        * Moda
+        * Desvio padrão
+    * **Histórico de operações de estatísticas.**
+    * **Resolver Equações:** 
+        * Primeiro e segundo grau
+    * **Histórico de soluções de equações.**
+    * **Operações com Vetores:**
+        * Adição
+        * Subtração
+        * Produto escalar
+        * Produto vetorial
+    * **Histórico de operações com vetores.**
+    * **Implementação da classe `Vetor` para representar vetores matemáticos.**
+    * **Operações com Matrizes:**
+        * Adição
+        * Multiplicação
+        * Transposição 
+    * **Histórico de operações com matrizes.**
+    * **Implementação da classe `Matriz` para representar matrizes.**
+    * **Geometria:**
+        * Cálculo de área:
+            * Círculo
+            * Retângulo
+        * Cálculo de perímetro:
+            * Triângulo 
+        * Cálculo de volume:
+            * Cubo
+    * **Histórico de operações de geometria.**
+    * **Teoremas:**
+        * Pitágoras
+        * Tales
+    * **Histórico de operações com teoremas.**
+    * **Operações com Números Complexos:**
+        * Soma
+        * Subtração
+        * Multiplicação
+        * Divisão
+        * Módulo
+    * **Histórico de operações com números complexos.**
+    * **Implementação da classe `NumeroComplexoIndividual` para representar números complexos.**
+    * **Operações com Frações:**
+        * Soma
+        * Subtração
+        * Multiplicação
+        * Divisão
+    * **Histórico de operações com frações.**
+    * **Implementação da classe `FracaoIndividual` para representar frações.**
+    * **Verificador de Números:**
+        * Positivo/negativo/zero
+        * Primo
+        * Par/ímpar
+        * Palíndromo
+        * Fibonacci
+        * Perfeito
+        * Amigável
+        * Cálculo de MDC e MMC
+        * Listar Fibonacci até N
+        * Listar Números Perfeitos até N
+        * Contar Dígitos de um Número
+        * Listar Números Primos até N
+        * Mágico
+        * Triangular
+        * Catalan
+        * Quadrado Perfeito
+        * Cubo Perfeito
+        * Número Abundante/Deficiente
+        * Número de Harshad
+    * **Histórico de verificações de números.**
+    * **Conversores de Unidades de Medida:**
+        * Comprimento
+        * Área
+        * Volume
+        * Tempo
+        * Velocidade
+        * Temperatura
+        * Pressão
+        * Massa
+        * Energia
+        * Dados
+        * Força
+        * Ângulo
+        * Densidade
+        * Frequência
+        * Iluminância
+        * Luminância
+        * Potência
+        * Eletricidade
+        * Radioatividade
+        * Velocidade Angular
+        * Fluxo de Massa (Não implementado, apesar de constar no menu)
+    * **Permite adicionar unidades personalizadas pelo usuário.**
+    * **Análise de Texto:**
+        * Contagem de palavras e caracteres e suas frequências (Não implementado, apesar de constar no menu).
+    * **Finanças:** 
+        * Não implementado, apesar de constar no menu principal.
+    * **Jogos:** 
+        * Não implementado, apesar de constar no menu principal.
+* **Especificidades:**
+    * Programa em Python.
+    * Utiliza classes e métodos para organizar o código. 
+    * Implementa histórico de operações para a maioria das funcionalidades.
+    * Boa organização e legibilidade do código.
+
+**Observações:**
+
+* As versões **main2.py.txt** a **main9.py.txt** também implementam diversas funcionalidades, mas com diferentes níveis de organização e implementação. Uma análise detalhada de cada arquivo levaria a uma resposta excessivamente longa.
+
+* A análise acima se baseia apenas nos trechos de código fornecidos. As funcionalidades completas de cada versão podem ser mais extensas do que o apresentado. 
+
+* É importante salientar que a qualidade da implementação e a usabilidade do programa não foram avaliadas nesta análise.

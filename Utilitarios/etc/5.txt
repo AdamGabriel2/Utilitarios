@@ -1,0 +1,20 @@
+## Evolução das Funcionalidades nos Programas TF e Main
+
+Comparando **TF1.por.txt** com **TF2.por.txt**, a principal diferença reside na expansão dos **conversores**. Enquanto **TF1.por.txt** se limita a conversores de **comprimento**, **TF2.por.txt** adiciona conversores de **área**. Essa progressão demonstra a intenção de aumentar as opções de conversão de unidades. 
+
+Analisando a série **main**, notamos uma evolução mais abrangente. **main1.py.txt** oferece funcionalidades básicas, como **calculadora**, **tabuada**, verificação de números, tamanho de texto e conversores de comprimento. **main2.py.txt** aprimora a calculadora, introduzindo um sistema de dicionário para organizar as operações, tornando o código mais eficiente. 
+
+**main3.py.txt** e **main4.py.txt** expandem as funcionalidades, adicionando jogos matemáticos e aumentando as opções de conversores de unidades. **main5.py.txt** adiciona cálculos de **derivada** e **integral** à calculadora, além de novas unidades de conversão. 
+
+**main6.py.txt** implementa uma mudança significativa na estrutura do código, organizando as funcionalidades em classes. Surgem as classes `Calculadora`, `Tabuada`, `Verificacoes`, `AnaliseTexto` e `Conversor`, promovendo modularização e facilitando a manutenção e expansão. 
+
+**main7.py.txt** aprofunda essa estrutura, dividindo as funcionalidades matemáticas em básicas (`UttsMatBasicos`) e avançadas (`UttsMatAvanc`) e introduzindo classes como `VerifNums` e `UttsTexto`. Essa organização hierárquica torna o programa mais intuitivo. 
+
+**main8.py.txt** introduz a classe `Menu` para gerenciar a exibição dos menus. A classe base `Base` é criada para fornecer funcionalidades comuns, como conversão entre bases numéricas. 
+
+**main9.py.txt** simplifica a estrutura, unificando as funcionalidades matemáticas na classe `UttsMats`. A classe `Calculadora` é aprimorada, incorporando a conversão entre bases numéricas. 
+
+**main10.py.txt** adiciona funcionalidades como o cálculo de **estatísticas** (média, mediana, moda e desvio padrão), resolução de **equações de primeiro e segundo grau**, operações com **vetores** (adição, subtração, produto escalar e produto vetorial) e **matrizes** (adição, multiplicação, transposição), além de cálculos de **geometria** (área, perímetro, volume) e aplicação de **teoremas** (Pitágoras e Tales).
+
+Em resumo, a comparação entre as versões **TF** e a série **main** demonstra a evolução do programa, partindo de funcionalidades básicas e culminando em um sistema rico em recursos e com código modularizado. A série **main** ilustra um processo iterativo de desenvolvimento, com cada versão adicionando novos recursos e aprimorando a estrutura, tornando o programa mais completo e organizado.
+

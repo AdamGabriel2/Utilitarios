@@ -1,0 +1,818 @@
+programa{
+	inclua biblioteca Matematica --> mat
+	inteiro m,m1=0,m2=0,esc=0
+	cadeia z[]={"|-----------------------------|","|---    Menu de Opções     ---|","|-----------------------------|","| 1 - Calculadora             |","| 2 - Tabuada                 |","| 3 - Verificar Número        |","| 4 - Tamanho do texto        |","| 5 - Conversores             |","| 0 - Sair/Exit/Quit          |","|-----------------------------|","Sua escolha: "}
+	cadeia z1[]={"O que você quer saber sobre um número:","1 - Se ele é maior, menor ou igual a zero.","2 - Se ele é primo.","3 - Se ele é par ou impar.","4 - Se ele é um quadrado perfeito.","5 - Se ele é número triangular.","6 - Se ele é número de Fibonacci.","Sua escolha:"}
+	cadeia z2[]={"Qual conversão você quer fazer:","1. Conversão de comprimento","2. Conversão de área","3. Conversão de volume","4. Conversão de tempo","5. Conversão de massa","6. Conversão de velocidade","7. Conversão de temperatura","8. Conversão de pressão","Sua escolha:"}
+	funcao inicio(){
+		m=0
+		int()
+	}
+	
+	funcao opcoes(){
+		inteiro c=1,x
+		caracter op=' '
+		logico repete=verdadeiro
+		se(esc==1){
+			m1=1
+			escreva(z[3])
+			escreva("\nEntre com a operação desejada: ")
+			escreva("\nPode ser operações básicas como Adição '+', Subtração '-', Multiplicação '*', Divisão '/', Potência 'P' ou Raiz 'R'.\nCalculo de multiplo 'L', Média 'M', Soma de 1 a x 'S', Fatorial 'F' e a Área de Figuras Geometricas 'A'.")
+			escreva("\n"+z[9])
+			leia(op)
+			enquanto(repete==verdadeiro){
+			se(op=='+'){
+				mc(op)
+				}senao
+			se(op=='-'){
+				mc(op)
+				}senao
+			se(op=='*' ou op=='X' ou op=='x' ou op=='.'){
+				mc(op)
+				}senao
+			se(op=='/'){
+				mc(op)
+			}senao
+			se(op=='P' ou op=='p'){
+				m1=9
+				mc(op)
+				}senao
+			se(op=='R' ou op=='r'){
+				m1=10
+				mc(op)
+				}senao
+			se(op=='L' ou op=='l'){
+				m1=11
+				mc(op)
+			}senao
+			se(op=='M' ou op=='m'){
+				m1=12
+				mc(op)
+			}senao
+			se(op=='S' ou op=='s'){
+				m1=13
+				mc(op)
+			}senao
+			se(op=='F' ou op=='f'){
+				m1=14
+				mc(op)
+			}senao
+			se(op=='A' ou op=='a'){
+				m1=15
+				mc(op)}
+			escreva("\nVocê deseja fazer outra operação ou voltar ao menu?")
+				escreva("\n 0 - MENU ")
+				escreva("\n 1 - SIM ")
+				escreva("\n 2 - NÃO ")
+				escreva("\nSua escolha: ")
+				leia(x)
+					se(x==0){
+						m=1
+						int()
+					}senao
+					se(x==1){
+						repete=verdadeiro
+						m=1
+						opcoes()
+					}senao
+					se(x==2){
+						repete=falso
+						final()
+					}
+			}
+		}senao
+		se(esc==2){
+		m1=2
+		enquanto(repete==verdadeiro){
+		mc(op)
+		escreva("\nVocê deseja saber de outra tabuada ou voltar ao menu?")
+				escreva("\n 0 - MENU ")
+				escreva("\n 1 - SIM ")
+				escreva("\n 2 - NÃO ")
+				escreva("\nSua escolha: ")
+				leia(x)
+					se(x==0){
+						m=1
+						int()
+					}senao
+					se(x==1){
+						repete=verdadeiro
+						m=1
+						opcoes()
+					}senao
+					se(x==2){
+						repete=falso
+						final()
+					}
+		se(x==1){
+			repete=verdadeiro
+		}senao
+		se(x==2){
+			repete=falso
+			final()
+		}senao
+		se(x==3){
+			repete=falso
+			int()}
+		}
+		}senao
+		se(esc==3){
+			enquanto(repete==verdadeiro){
+			m=10
+			escreva(z[5]+"\n")
+			int()
+			leia(c)
+			se(c==1){
+			m1=4
+			mc(op)
+			}senao
+			se(c==2){
+			m1=5
+			mc(op)
+			}senao
+			se(c==3){
+			m1=6
+			mc(op)
+			}senao
+			se(c==4){
+			m1=7
+			mc(op)
+			}senao
+			se(c==5){
+			m1=8
+			mc(op)}
+				escreva("\nVocê deseja realizar outras verificações ou voltar ao menu?")
+				escreva("\n 0 - MENU ")
+				escreva("\n 1 - SIM ")
+				escreva("\n 2 - NÃO ")
+				escreva("\nSua escolha: ")
+				leia(x)
+					se(x==0){
+						m=1
+						int()
+					}senao
+					se(x==1){
+						repete=verdadeiro
+						m=1
+						opcoes()
+					}senao
+					se(x==2){
+						repete=falso
+						final()
+					}
+			}
+		}senao
+		se(esc==4){
+			
+		}senao
+		se(esc==5){
+			enquanto(repete==verdadeiro){
+				m=20
+				escreva(z[7],"\n")
+				int()
+				leia(c)
+				se(c==1){
+					m1=15
+					mc(op)
+				}senao
+				se(c==2){
+					m1=16
+					mc(op)
+				}senao
+				se(c==3){
+					m1=17
+					mc(op)
+				}senao
+				se(c==4){
+					m1=18
+					mc(op)
+				}senao
+				se(c==5){
+					m1=19
+					mc(op)
+				}senao
+				se(c==6){
+					m1=20
+					mc(op)
+				}senao
+				se(c==7){
+					m1=21
+					mc(op)
+				}senao
+				se(c==8){
+					m1=22
+					mc(op)
+				}
+				
+				escreva("\nVocê deseja realizar outras verificações ou voltar ao menu?")
+				escreva("\n 0 - MENU ")
+				escreva("\n 1 - SIM ")
+				escreva("\n 2 - NÃO ")
+				escreva("\nSua escolha: ")
+				leia(x)
+					se(x==0){
+						m=1
+						int()
+					}senao
+					se(x==1){
+						repete=verdadeiro
+						m=1
+						opcoes()
+					}senao
+					se(x==2){
+						repete=falso
+						final()
+					}
+			}
+		}senao
+		se(esc==0){
+			escreva(z[8])
+			m=10
+		}senao
+		se(esc!=0 ou esc!=1 ou esc!=2 ou esc!=3 ou esc!=4 ou esc!=5){
+			escreva("Escolha invalida tente novamente.\n")
+			int()}
+	}
+
+	funcao int(){
+		cadeia nome
+		inteiro y=0
+		se(m==0){
+		escreva("Digite seu nome: ")
+		leia(nome)
+		ma(nome)
+		}senao
+		se(m==1){
+			para(y=0;y<=10;y++){
+				escreva(+z[y]+"\n")}
+			mb()
+		}senao
+		se(m==10){
+			para(y=0;y<=7;y++){
+				escreva(z1[y]+"\n")}
+		}senao
+		se(m==20){
+			para(y=0;y<=9;y++){
+				escreva(z2[y]+"\n")}
+		}
+		
+	}
+
+	funcao ma(cadeia nome){
+		escreva("Bem-vindo(a) ao programa "+nome)
+		escreva("\nAbaixo está sua lista de opções.\n")
+		m=1
+		int()
+	}
+
+	funcao mb(){
+		leia(esc)
+		m1=50
+		opcoes()
+	}
+
+	funcao mc(caracter op){
+		inteiro a=0,b=0,v=0,va=1,i=0,aux=0,nu=0,d=0,r=0,div=1,mu=1,c=1,f=1,con=0
+		real n=0.0,md=0.0,s=0.0
+		cadeia med
+		se(m1==1){
+		se(op=='+'){
+			escreva("A operação escolhida foi Adição '+'")
+			escreva("\nEntre com um número: ")
+			leia(a)
+			escreva("Entre com outro número: ")
+			leia(b)
+				escreva("A soma é: ",a+b)
+		}senao
+		se(op=='-'){
+			escreva("A operação escolhida foi Subtração '-'")
+			escreva("\nEntre com um número: ")
+			leia(a)
+			escreva("Entre com outro número: ")
+			leia(b)
+				escreva("O resto é: ",a-b)
+		}senao
+		se(op=='*' ou op=='X' ou op=='x' ou op=='.'){
+			escreva("A operação escolhida foi Multiplicação '*'")
+			escreva("\nEntre com um número: ")
+			leia(a)
+			escreva("Entre com outro número: ")
+			leia(b)
+				escreva("O produto é: ",a*b)
+		}senao
+		se(op=='/'){
+			escreva("A operação escolhida foi Divisão '*'")
+			escreva("\nEntre com um número: ")
+			leia(a)
+			escreva("Entre com outro número: ")
+			leia(b)
+				escreva("O quociente é: ",a/b)}
+		}senao
+		se(m1==2){
+		escreva("Informe um número para ver sua tabuada: ")
+		leia(a)
+		para (con=1;con<=10;con++) {
+			r=a*con
+			escreva (a," X ",con," = ",r,"\n")}
+		}senao
+		se(m1==3){
+			enquanto(c<=v){
+			escreva("Digite o ",c, "º número: ")
+			leia(n)
+			s=s+n
+			c=c+1}
+			md=s/v
+			escreva("A média dos números é: ",md, "\n")
+		}senao
+		se(m1==4){
+			escreva("\nInsira um número para identificar se ele é positivo, negativo ou igual a zero: ")
+			leia(b)
+				se(b>0){
+					escreva("\nO número "+b+" é positivo.")
+				}senao
+				se(b<0){
+					escreva("\nO número "+b+" é negativo.")
+				}senao
+				se(b==0){
+					escreva("\nO número "+b+" é igual a zero.")
+				}
+		}senao
+		se(m1==5){
+			escreva("\nInsira um número para identificar se ele é primo: ")
+			leia(b)
+				se(b>0){
+					enquanto(va<=nu){
+					se(b%va==0){
+						div++}
+						va++}
+				se(div==2){
+					escreva("\nO número ",b," é primo!\n")}
+					senao{
+						escreva("\nO número ",b," não é primo!\n")}
+					}senao{
+						escreva("\nValor negativo ou igual a zero!\n")}
+		}senao
+		se(m1==6){
+			escreva("\nInsira um número para identificar se ele é par o impar: ")
+			leia(b)
+				se(b%2==0){
+						escreva("\nO número "+b+" é par.")
+					}senao{
+						escreva("\nO número "+b+" é impar.")}
+		}senao
+		se(m1==7){
+			escreva("\nInsira um número para identificar se ele é um quadrado perfeito: ")
+			leia(b)
+				r=mat.raiz(b, 2.0)
+				se(r/2==b){
+					escreva("O número "+b+" é um quadrado perfeito.")
+				}senao{
+					escreva("O número "+b+" não é um quadrado perfeito.")}
+				}senao
+		se(m1==8){
+			escreva("\nInsira um número para identificar se ele é um número triangular: ")
+			leia(a)
+			nu=a
+				para(i=1;(i*(i+1))<=(a*2);i++){
+					se((i*(i+1)/2)==a){
+						aux=1}
+				}
+				se(aux==1){
+					escreva("O número "+nu+" é um número triangular.")
+				}senao{
+					escreva("O número "+nu+" não é um número triangular.")}
+		}senao
+		se(m1==9){
+			escreva("Entre com o número de vezes com o qual se deseja calcular a potência: ")
+			leia(b)
+				enquanto(d!=b){
+					r=a*a
+					d++}
+				escreva("A potência de "+a+" multiplicado "+b+" vezes é: "+r)
+		}senao
+		se(m1==10){
+		escreva("Entre com o número de vezes com o qual se deseja calcular a raiz: ")
+		leia(b)
+			enquanto(d!=b){
+				r=a/a
+				d++}
+			escreva("A raiz de "+a+" dividido "+b+" vezes é: "+r)
+		}senao
+		se(m1==11){
+		escreva("\nDigite um número: ")
+		leia(a)
+		escreva("Digite o multiplo: ")
+		leia(mu)
+			se(a%mu==0){
+			escreva("O número ",a," é multiplo de ",mu)}
+		senao
+			escreva("O número ",a," não é multiplo de ",mu)
+		escreva("\n")
+		}senao
+		se(m1==12){
+			escreva("\nDigite até quantos números deverá ser calculada a média: ")
+			leia(v)
+		enquanto(c<=v){
+			escreva("Digite o ",c, "º número: ")
+			leia(nu)
+			s=s+nu
+			c=c+1}
+		md=s/v
+		escreva("A média dos números é: ",md, "\n")
+		}senao
+		se(m1==13){
+		escreva("\nDigite o número até o qual deseja somar: ")
+		leia(nu)
+		para(c=0;c<=nu;c++){
+			d=d+c}
+		escreva("A soma de 1 até ",nu," é: ",d,"\n")
+		}senao
+		se(m1==14){
+		escreva("Digite até que número se deseja obter o fatorial: ")
+		leia(nu)
+		enquanto(f<=nu){
+			mu=mu*f
+			f=f+1}
+		escreva("O fatorial de ",nu," é: ",mu,"\n")
+		}senao
+		se(m1==15){
+			real valor
+			escreva(z2[2],"\n")
+			escreva("Insira a unidade de medida que você quer saber a conversão, podendo ser:\nQuilômetros 'km', Metros 'm', Centímetros 'cm', Milímetros 'mm', Pés 'ft', Polegadas 'in', Jardas 'yd' ou Milhas 'mile'.\n")
+			leia(med)
+			se(med=="km"){
+				escreva("Insira o valor em Quilômetros para ser convertido para:\nMetros, Centímetros, Milímetros, Pés, Polegadas, Jardas e Milhas: ")
+				leia(valor)
+				m2=1
+				me(valor)
+			}senao
+			se(med=="m"){
+				escreva("Insira o valor em Metros para ser convertido para:\n Quilômetros, Centímetros, Milímetros, Pés, Polegadas, Jardas e Milhas: ")
+				leia(valor)
+				m2=2
+				me(valor)
+			}senao
+			se(med=="cm"){
+				escreva("Insira o valor em Centímetros para ser convertido para:\n Quilômetros, Metros, Milímetros, Pés, Polegadas, Jardas e Milhas: ")
+				leia(valor)
+				m2=3
+				me(valor)
+			}senao
+			se(med=="mm"){
+				escreva("Insira o valor em Milímetros para ser convertido para:\n Quilômetros, Metros, Centímetros, Pés, Polegadas, Jardas e Milhas: ")
+				leia(valor)
+				m2=4
+				me(valor)
+			}senao
+			se(med=="ft"){
+				escreva("Insira o valor em Pés para ser convertido para:\n Quilômetros, Metros, Centímetros, Milímetros, Polegadas, Jardas e Milhas: ")
+				leia(valor)
+				m2=5
+				me(valor)
+			}senao
+			se(med=="in"){
+				escreva("Insira o valor em Polegadas para ser convertido para:\n Quilômetros, Metros, Centímetros, Milímetros, Pés, Jardas e Milhas: ")
+				leia(valor)
+				m2=6
+				me(valor)
+			}senao
+			se(med=="yd"){
+				escreva("Insira o valor em Jardas para ser convertido para:\n Quilômetros, Metros, Centímetros, Milímetros, Pés, Polegadas e Milhas: ")
+				leia(valor)
+				m2=7
+				me(valor)
+			}senao
+			se(med=="mile"){
+				escreva("Insira o valor em Milhas para ser convertido para:\n Quilômetros, Metros, Centímetros, Milímetros, Pés, Polegadas e Jardas: ")
+				leia(valor)
+				m2=8
+				me(valor)
+			}
+		}senao
+		se(m1==16){
+			real valor
+			escreva(z2[3],"\n")
+			escreva("Insira a unidade de medida que você quer saber a conversão, podendo ser:\nQuilometros Quadrados 'km2' Metros Quadrados 'm2' Hectares 'ha' Acres 'acre' Milha Quadrada 'mile2' Pés Quadrados 'ft2' Polegadas Quadradas 'in2'.\n")
+			leia(med)
+			se(med=="km2"){
+				escreva("Insira o valor em Quilometros Quadrados para ser convertido para:\nMetros Quadrados, Hectares, Acres, Milha Quadrada, Pés Quadrados e Polegadas Quadradas:")
+				leia(valor)
+				m2=17
+				me(valor)
+			}senao
+			se(med=="m2"){
+				escreva("Insira o valor em Metros Quadrados para ser convertido para:\nQuilometros Quadrados, Hectares, Acres, Milha Quadrada, Pés Quadrados e Polegadas Quadradas:")
+				leia(valor)
+				m2=11
+				me(valor)
+			}senao
+			se(med=="ha"){
+				escreva("Insira o valor em Hectares para ser convertido para:\nQuilometros Quadrados, Metros Quadrados, Acres, Milha Quadrada, Pés Quadrados e Polegadas Quadradas:")
+				leia(valor)
+				m2=12
+				me(valor)
+			}senao
+			se(med=="acre"){
+				escreva("Insira o valor em Acres para ser convertido para:\nQuilometros Quadrados, Metros Quadrados, Hectares, Milha Quadrada, Pés Quadrados e Polegadas Quadradas:")
+				leia(valor)
+				m2=13
+				me(valor)
+			}senao
+			se(med=="mile2"){
+				escreva("Insira o valor em Milhas Quadradas para ser convertido para:\nQuilometros Quadrados, Metros Quadrados, Hectares, Acres, Pés Quadrados e Polegadas Quadradas:")
+				leia(valor)
+				m2=14
+				me(valor)
+			}senao
+			se(med=="ft2"){
+				escreva("Insira o valor em Pés Quadrados para ser convertido para:\nQuilometros Quadrados, Metros Quadrados, Hectares, Acres, Milha Quadrada, e Polegadas Quadradas:")
+				leia(valor)
+				m2=15
+				me(valor)
+			}senao
+			se(med=="in2"){
+				escreva("Insira o valor em Polegadas Quadradas para ser convertido para:\nQuilometros Quadrados, Metros Quadrados, Hectares, Acres, Milha Quadrada e Pés Quadrados:")
+				leia(valor)
+				m2=16
+				me(valor)
+			}
+		}
+	}
+
+	funcao me(real valor){
+		real km=0.0,met=0.0,cm=0.0,mm=0.0,ft=0.0,in=0.0,yd=0.0,mile=0.0
+		real km2=0.0,met2=0.0,ha=0.0,acre=0.0,mile2=0.0,ft2=0.0,in2=0.0
+		se(m2==1){
+			km=valor
+			met=km*1000
+			cm=met*100
+			mm=cm*10
+			ft=km*3280
+			in=km*39370
+			yd=km*1094
+			mile=km/1.609
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Milímetros é :",mm,"mm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==2){
+			met=valor
+			km=met/1000
+			cm=met*100
+			mm=cm*10
+			ft=met*3.281
+			in=met*39.37
+			yd=met*1.094
+			mile=met/1609
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Milímetros é :",mm,"mm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==3){
+			cm=valor
+			km=cm/100000
+			met=cm/100
+			mm=cm*10
+			ft=cm/30.48
+			in=cm/2.54
+			yd=cm/91.44
+			mile=cm/160900
+			escreva("\nO valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Milímetros é :",mm,"mm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==4){
+			mm=valor
+			km=mm/1000000
+			met=mm/1000
+			cm=mm*10
+			ft=mm/304.8
+			in=mm/25.4
+			yd=mm/914.4
+			mile=cm/160900
+			escreva("\nO valor em Milímetros é :",mm,"mm")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Centímetros é :",cm,"cm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==5){
+			ft=valor
+			km=ft/3281
+			met=ft/3.281
+			cm=ft*30.48
+			mm=ft*304.8
+			in=ft*12
+			yd=ft/3
+			mile=ft/5280
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Milímetros é :",mm,"mm")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==6){
+			in=valor
+			km=in/39370
+			met=in/39.37
+			cm=in*2.54
+			mm=in*25.4
+			ft=in/12
+			yd=in/36
+			mile=in/63360
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Melímetros é :",mm,"mm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==7){
+			yd=valor
+			km=yd/1094
+			met=yd/1.094
+			cm=yd*91.44
+			mm=yd*914.4
+			ft=yd*3
+			in=yd*36
+			mile=yd/1760
+			escreva("\nO valor em Jardas é :",yd,"yd")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\nO valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Melímetros é :",mm,"mm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Milhas é :",mile,"mile")
+		}senao
+		se(m2==8){
+			mile=valor
+			km=mile*1.609
+			met=mile*1609
+			cm=mile*160900
+			mm=mile*1609000
+			ft=mile*5280
+			in=mile*63360
+			yd=mile*1760
+			escreva("\nO valor em Milhas é :",mile,"mile")
+			escreva("\nO valor em Quimômetros é :",km,"Km")
+			escreva("\nO valor em Metros é :",met,"M")
+			escreva("\n valor em Centímetros é :",cm,"Cm")
+			escreva("\nO valor em Melímetros é :",mm,"mm")
+			escreva("\nO valor em Pés é :",ft,"ft")
+			escreva("\nO valor em Polegadas é :",in,"in")
+			escreva("\nO valor em Jardas é :",yd,"yd")
+		}senao
+		se(m2==11){
+			met2=valor
+			km2=met2*1000000
+			ha=met2*10000
+			acre=met2*4047
+			mile2=met2*2.59000000
+			ft2=met2/10.764
+			in2=met2/1550
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+		}senao
+		se(m2==12){
+			ha=valor
+			km2=ha/100
+			met=ha/10000
+			acre=ha*2.471
+			mile2=ha/259
+			ft2=ha*107600
+			in2=ha*1.550000000
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+		}senao
+		se(m2==13){
+			acre=valor
+			km2=acre/247.1
+			met2=acre*4047
+			ha=acre/2.471
+			mile2=acre/640
+			ft2=acre*43560
+			in2=acre*6.273000000
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+		}senao
+		se(m2==14){
+			mile2=valor
+			km2=mile2*2.59
+			met2=mile2*2.59000000
+			ha=mile2*259
+			acre=mile2*640
+			ft2=mile2*2.7880000000
+			in2=mile2*4.014000000000
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+		}senao
+		se(m2==15){
+			ft2=valor
+			km2=ft2/1.0760000000
+			met2=ft2/10.764
+			ha=ft2/107600
+			acre=ft2/43560
+			mile2=ft2/2.7880000000
+			in2=ft2*144
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+		}senao
+		se(m2==16){
+			in2=valor
+			km2=in2/1.55000000000
+			met2=in2/1550
+			ha=in2/1.550000000
+			acre=in2/6.273000000
+			mile2=in2/4.014000000000
+			ft2=in2/144
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+		}senao
+		se(m2==17){
+			km2=valor
+			met2=km2*1000000
+			ha=km2*100
+			acre=km2*247.1
+			mile2=km2/2.59
+			ft2=km2*1.0760000000
+			in2=km2*1.55000000000
+			escreva("\nO valor em Quimômetros Quadrados é :",km2,"Km²")
+			escreva("\nO valor em Metros Quadrados é :",met2,"M²")
+			escreva("\nO valor em Hectares é :",ha,"ha")
+			escreva("\nO valor em Acres é :",acre,"acre")
+			escreva("\nO valor em Milhas Quadradas é :",mile2,"mile²")
+			escreva("\nO valor em Pés Quadrados é :",ft2,"ft²")
+			escreva("\nO valor em Polegadas Quadradas é :",in2,"in²")
+		}
+	}
+	
+	funcao final(){
+		limpa()
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 21705; 
+ * @DOBRAMENTO-CODIGO = [6, 23, 26, 29, 32, 35, 39, 43, 47, 51, 55, 59, 68, 72, 77, 15, 93, 97, 102, 106, 109, 113, 85, 83, 124, 128, 132, 136, 140, 149, 153, 118, 164, 212, 216, 221, 167, 227, 231, 11, 239, 244, 249, 253, 236, 260, 267, 278, 286, 294, 302, 277, 313, 310, 317, 329, 332, 335, 326, 347, 349, 351, 339, 357, 359, 354, 366, 368, 362, 376, 375, 379, 381, 371, 387, 384, 395, 392, 405, 400, 414, 411, 425, 422, 432, 429, 442, 448, 454, 460, 466, 472, 478, 484, 437, 496, 502, 508, 514, 520, 526, 532, 491, 544, 562, 580, 598, 616, 634, 652, 670, 688, 704, 720, 736, 752, 768, 784, 541, 802];
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

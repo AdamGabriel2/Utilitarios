@@ -1,0 +1,12 @@
+Projeto Utilitários, fornece uma ampla gama de utilitários tanto matemáticos como para textos além de ter jogos estou na atualização número 9 (2 em Portugol e 7 em Python), abaixo estão todos os utilitários presentes em sua versão 9.
+Calculadora com opções de operações: Adição, Subtração, Multiplicação, Divisão, Potência, Raiz Quadrada, Fatorial, Combinação, Permutação, Derivada, Integral e Tabuada 
+Calculo de Função Logarítmica, Exponencial, Seno, Cosseno, Tangente, Primeiro e Segundo Grau; 
+Calculo de Estatística: Calcular Média, Mediana, Moda e Desvio Padrão; 
+Operações com Matrizes: Operações de Adição, Multiplicação e calculo de matriz Transposta
+Geometria: Calculo de Área de Círculo, Retângulo, Perímetro do Triângulo e Volume do Cubo; 
+Verifica se um número é positivo, negativo ou igual a zero, primo, par ou impar, palíndromo, um número da sequencia de fibonacci, perfeito e faz calculo de máximo divisor comum e mínimo múltiplo comum entre 2 números; 
+Utilitários de Texto: Faz uma analise do texto com uma contagem de palavras e caracteres no texto, e frequência de palavras e caracteres
+Conversão de Unidades: Faz conversão das seguintes unidades: Comprimento, Área, Volume, Tempo, Velocidade, Temperatura, Pressão, Massa, Energia, Dados, Força, Ângulo, Densidade, Frequência, Iluminância, Luminância, Potência, Eletricidade, Radioatividade, Velocidade Angular e Fluxo de Massa
+Conversão de Moeda: Conversão entre moedas Real Brasileiro, Dólar Americano e Euro (que merda, eu tenho que melhorar isso urgente)
+Jogos: Quiz Matemático; Sudoku
+

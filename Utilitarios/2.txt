@@ -1,0 +1,14 @@
+Projeto Utilitários, fornece uma ampla gama de utilitários tanto matemáticos como para textos, geometria, 
+Calculadora Básica: Operações: Adição, Subtração, Multiplicação, Divisão, Potência e Raiz Quadrada; Tabuada; 
+Calculadora Avançada: Operações: Fatorial, Combinação, Permutação, Derivada, Integral; 
+Funções Matemáticas: Calculo de Função Logarítmica, Exponencial, Seno, Cosseno e Tangente; 
+Calculo de Estatística: Calcular Média, Mediana, Moda e Desvio Padrão; 
+Resolver Equações: Calculo de funções de primeiro e segundo grau (não foi colocada em "Funções Matemáticas" por ter uma estrutura de resolução totalmente diferente das demais); 
+Operações com Matrizes: Operações de Adição, Multiplicação e calculo de matriz Transposta (ainda vou adicionar calculo de Subtração e matriz Inversa (e muito trampo e muito detalhe pra ver ainda e o código ta só gambiarra nem sei como ta rodando KKKKKKKKK)); 
+Geometria: Calculo de Área de Círculo, Retângulo, Perímetro do Triângulo e Volume do Cubo; 
+3. Verificadores de Números: Verifica se um número é positivo, negativo ou igual a zero, primo, par ou impar, palíndromo, um número da sequencia de fibonacci, perfeito e faz calculo de máximo divisor comum e mínimo múltiplo comum entre 2 números; 
+Utilitários de Texto: Faz uma analise do texto com uma contagem de palavras e caracteres no texto, e frequência de palavras e caracteres
+5. Conversores de Unidades: Conversão de Unidades: 
+Faz conversão das seguintes unidades: Comprimento, Área, Volume, Tempo, Velocidade, Temperatura, Pressão, Massa, Energia, Dados, Força, Ângulo, Densidade, Frequência, Iluminância, Luminância, Potência, Eletricidade, Radioatividade, Velocidade Angular e Fluxo de Massa (é aqui que o filho chora e a mãe não vê);
+Conversão de Moeda: Conversão entre moedas Real Brasileiro, Dólar Americano e Euro (que merda, eu tenho que melhorar isso urgente)
+6. Jogos: Quiz Matemático; Sudoku
